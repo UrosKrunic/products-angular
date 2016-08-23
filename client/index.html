@@ -4,18 +4,20 @@
 	<title>Musical Instruments Store</title>
 	<link rel="stylesheet" href="styles/bootstrap.css" />
 	<link rel="stylesheet" href="styles/bootstrap-theme.css" />	
+	<link rel="stylesheet" href="styles/css.css">
 </head>
 <body>
 	<div class="container">
 		<h2>Musical Instruments Store</h2>
 	
-		<div ng-view></div>
+		<div ng-view class="ngFade"></div>
 	</div>
 
 	<script src="scripts/angular.js"></script>
 	<script src="app.js"></script>
 	<script src="controllers/productsCtrl.js"></script>
 	<script src="services/angular-route.js"></script>
+	<script src="services/angular-animate.js"></script>
 	<script src="controllers/editCtrl.js"></script>
 </body>
 </html>

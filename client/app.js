@@ -1,4 +1,4 @@
-angular.module('musicalInstruments', ['ngRoute'])
+angular.module('musicalInstruments', ['ngRoute', 'ngAnimate'])
 	.config(function ($routeProvider) {
 			
 		$routeProvider.when('/', {
